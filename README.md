@@ -1,6 +1,80 @@
-# Animalwellfare# US Farm Animal Welfare: Regulations, Gaps, and Reform Proposals
+# The True Cost / Gerçek Maliyet
 
-**The United States has no comprehensive federal law protecting farm animals during their lives on farms.** Approximately **10 billion land animals** are slaughtered annually under a patchwork of narrow, outdated federal statutes — most of which explicitly exclude poultry (98%+ of all slaughtered animals) and none of which regulate on-farm living conditions like space, enrichment, or outdoor access. The EU banned battery cages in 2012 and restricted gestation crates in 2013; the US has taken neither step at the federal level. This report provides the complete regulatory landscape, identifies specific gaps with CFR citations, proposes concrete reform standards, and quantifies expected outcomes — structured for direct adaptation into a bilingual GitHub repository document.
+An evidence-based, interactive awareness application about US industrial farm animal welfare regulations, their gaps, and proposed reforms. Built as a shareable longform white paper.
+
+**Live site:** [https://candanumut.github.io/Animalwellfare/](https://candanumut.github.io/Animalwellfare/)
+
+---
+
+## About
+
+This app presents:
+
+- Animated statistics on the scale of the problem (9.8 billion birds/year with no legal protection)
+- Side-by-side current state vs. proposed reforms for poultry and livestock
+- An interactive US vs EU timeline showing decades of divergence
+- A comparison table of key regulatory differences
+- Systemic issues blocking reform (USDA conflict of interest, ag-gag laws, EATS Act)
+- Expected outcomes for animal welfare, meat quality, public health, and economics
+- Bilingual support (English / Turkish)
+- Share buttons and print-to-PDF functionality
+
+---
+
+## Tech Stack
+
+- **React + TypeScript + Vite**
+- **Tailwind CSS**
+- **GitHub Pages** via GitHub Actions
+
+---
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173/Animalwellfare/](http://localhost:5173/Animalwellfare/)
+
+---
+
+## Deployment
+
+This app deploys automatically to GitHub Pages on push to `main` via `.github/workflows/deploy.yml`.
+
+**Manual steps if needed:**
+
+1. In `vite.config.ts`, confirm `base` is set to `'/Animalwellfare/'`
+2. Push to `main`
+3. GitHub Actions will build and deploy to the `github-pages` environment
+
+---
+
+## Sources
+
+All data is sourced from:
+
+- USDA FSIS — Humane Handling
+- Animal Legal & Historical Center — HMSA Discussion
+- USDA ERS — State Farm Animal Welfare Policies
+- ASPCA — Farm Animal Confinement Bans
+- Animal Welfare Institute — Farm System Reform Act
+- CDC — Antibiotic Resistance Threats in the United States (2019)
+- PubMed — Stress indicators and meat quality
+- EU Regulation 1099/2009 — Animal Protection at Time of Killing
+- EU Directive 2007/43/EC — Broiler Welfare
+
+---
+
+## Contributing
+
+Open source. Share freely. If you have corrections or additions to the data, open an issue or PR.
+
+---
+
+## Original Research Document
 
 -----
 
